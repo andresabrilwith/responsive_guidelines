@@ -24,6 +24,7 @@ nav{
   position: relative;
   width: 90px;
   height: auto;
+  padding-top: 6px;
 }
 .logo img{
   width: 100%
@@ -79,6 +80,10 @@ nav{
   bottom: 0
 }
 @media(max-width:840px){
+  nav{
+    padding: 25px 40px;
+  }
   .menu-button{display: flex;}
   .menu ul{display: none}
+  .logo{width: 75px;}
 }
