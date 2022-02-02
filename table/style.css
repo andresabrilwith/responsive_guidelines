@@ -127,7 +127,7 @@ input::placeholder, .top p span{
 .column.small{
   flex: .5;
 }
-.column:not(.small) p:first-child{display: none;}
+.row:not(.header) .column:not(.small) p:first-child{display: none;}
 p{
   font-size: 1em;
   text-align: center;
@@ -187,7 +187,7 @@ p{
   .column:last-child{
    border: none;
   }
-  .column:not(.small) p:first-child{display: inline-block;}
+  .row:not(.header) .column:not(.small) p:first-child{display: inline-block;}
 }
 @media (max-width: 830px){
   .top{
