@@ -164,6 +164,7 @@ p{
     background-color: #34304F;
     border-radius: 12px;
     margin: 0 40px 40px 0;
+    overflow: hidden;
   }
   .row:nth-child(2n+1){
     margin: 0 0 40px 0;
@@ -176,6 +177,7 @@ p{
   }
   .column.small{
     justify-content: center;
+    border-bottom: none;
   }
   .column:first-child{
     background-color: #b7abd12b;
