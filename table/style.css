@@ -127,6 +127,7 @@ input::placeholder, .top p span{
 .column.small{
   flex: .5;
 }
+.column:not(.small) p:first-child{display: none;}
 p{
   font-size: 1em;
   text-align: center;
@@ -171,6 +172,7 @@ p{
     width: 100%;
     padding: 16px 0px;
     border-bottom: solid 1px rgba(214,205,237,.2);
+    justify-content: space-between;
   }
   .column:first-child{
     background-color: #b7abd12b;
@@ -180,8 +182,9 @@ p{
   .column:last-child{
    border: none;
   }
+  .column:not(.small) p:first-child{display: inline-block;}
 }
-@media (max-width: 600px){
+@media (max-width: 830px){
   .top{
     flex-direction: column;
   }
